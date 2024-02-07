@@ -1,0 +1,37 @@
+﻿Q1: what are inline and block elements in HTML and the difference between them? Name a few inline elements and block elements. 
+��Block elements are always start with new line. 
+��block elements are take all available width. 
+��Block element used as container to store and display content. Example: <p>,<div>,<h1>to<h6>,<table>,<ul>,<li> 
+��inline element take only necessary space require. 
+Example: <span>,<a>,<img>,<b>,<abbr>,<strong> 
+Q2: How to work with images in HTML and explain in detail <img/> tag important attributes. 
+��img tag is used to display images in webpage. 
+��<img src=”path-of-img” alt=”text”/> 
+��img tag is a self closing tag. 
+Img tag has attributes like src and alt. Src is used to pass the path of img. Alt attribute text will display on the web page when the file path passed into src has not been found. 
+Also img tag has attributes of width and height to set width and height of img. Q3: How to create lists in HTML? 
+��There are three type of list in HTML. 
+1=>ordered list 
+2=>unordered list 
+3=>description list 
+1.ordered list 
+��have tag ol(ordered list) inside ol(ordered list) we have li(list item) tag. ��ol have some attribute type to index items. 
+Default type is “1”. 
+We can used “A” , “a” , “I”, “i” 
+2.unordered list 
+��have tag ul(unordered list) inside ul(unordered list) we have li(list item) tag. ��ul have some attribute type to index items.
+Default type is “disc”. 
+We can used “circle” , “square” , “none” 
+3.description list 
+��have tag dl(description list) inside dl(description list) we have dt(description term) and dd(description) tag. 
+Example: 
+<dl> 
+<dt>Porbandar</dt> 
+<dd>Its it a Beautiful city in gujarat.</dd> 
+<dt>Rajkot</dt> 
+<dd>i am doing my Btech from Rajkot darshan university</dd> </dl> 
+Q4: How to interlink web pages and navigate people to other websites? ��to interlink web page we are using anchor tag <a> 
+<a href=“pathtogo” target= “_blank”>Pwkill</a> 
+When a user clicks on pwkill the new tab is open and the path specified in href will open.new tag because of _blank. 
+href=“secondpage.html” when user click on hyperlink is will move to secondpage.html in same tab. 
+Anchor tag also has an attribute if we add download attribute in anchor tag then user will click on hyperlink then file is started downloading which is specified in href.
